@@ -18,8 +18,8 @@ function getMatrixElementsSum(matrix) {
   let res = 0;
   for (let i = 0; i < matrix.length; i++) {
     for (let j = 0; j < matrix[i].length; j++) {
+      const elem = matrix[i][j];
       if (i === 0) {
-        const elem = matrix[i][j];
         res += elem;
       } else if (matrix[i - 1][j] !== 0) {
         res += elem;
