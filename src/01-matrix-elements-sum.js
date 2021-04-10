@@ -28,5 +28,4 @@ function getMatrixElementsSum(matrix) {
   }
   return res;
 }
-
 module.exports = getMatrixElementsSum;
